@@ -15,6 +15,7 @@
 |       :soon:     |   2020  |  Full Stack Web Developer - Nanodegree Program  |   Udacity  | [Course](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044) |
 |      :soon:      |   2020  |  Complete React Developer in 2020  |    Andrei Neagoie, Yihua Zhang    | [Course](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/)     |
 |      :soon:      |   2020  |  Gophercises  |    Jon Calhoun    | [Course](https://gophercises.com/)     |
+|      :soon:      |   2020  |  JavaScript30 |     Wes Bos       | [Course](https://javascript30.com/)    |
 |      :wrench:      |   2019  |  The Complete React Developer Course  |    Andrew Mead  | [Course](https://www.udemy.com/course/react-2nd-edition/) |
 |       :wrench:     |   2019  |  gRPC Golang Master Class: Build Modern API & Microservices  |    Stephane Maarek  | [Course](https://www.udemy.com/course/grpc-golang/) |
 | :white_check_mark: |   2018  |  Web Development with Go  |    Jon Calhoun    | [Course](https://www.usegolang.com/)     |
