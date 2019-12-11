@@ -1,14 +1,14 @@
 # Nathaniel Rand's Portfolio
-
+#### Contact: <nathanieljrand@gmail.com>
 ### - Website: (coming soon)
 ### - Projects: [Projects](https://oneware.io/projects)
 ### - Learning Log: Coming Soon  
 
 &nbsp;
-
 # Skills Tracker
-
-## Courses
+### Courses, Languages, Frameworks, Libraries, Tools, and more 
+&nbsp;
+## COURSES
 
 |       Status       |  Year   |         Course         |     Teacher     |                    Links                  |
 | :----------------: | :-----: | :--------------------- |  :------------- | :---------------------------------------: |
@@ -22,8 +22,8 @@
 | :white_check_mark: |   2016  |  Create an HTML5 Video Player |   Cocotuts Tutorials  | [Course](https://www.udemy.com/course/draft/294794/) |
 | :white_check_mark: |   2015  |  Ruby on Rails Tutorial       |    Michael Hartl      | [Course](https://www.railstutorial.org/) |
 
-
-## Languages / Frameworks / Libraries / ETC
+&nbsp;
+## LANGUAGES / FRAMEWORKS / LIBRARIES / ETC
 
 | Languages       | Introduction  |  Basics |   Good  |   Mid   |   Confident   |  Master |
 | --------------: | :-----------: |  :----: |  :----: |  :----: |  :---------:  |  :----: |
@@ -48,8 +48,8 @@
 | MySQL           |    :fire:     |  :fire: |         |         |               |         |
 | MongoDB         |    :fire:     |         |         |         |               |         |
 
-
-## Tools 
+&nbsp;
+## TOOLS 
 
 | Tools                  | Introduction  |  Basics |   Good  |   Mid   |   Confident   |  Master |
 | ---------------------: | :-----------: |  :----: |  :----: |  :----: |  :---------:  |  :----: |
