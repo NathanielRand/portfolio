@@ -1,10 +1,12 @@
 # Nathaniel Rand's Portfolio
 
-### Website: (coming soon)
-### Projects: [Projects](https://oneware.io/projects)
-### Learning Log: Coming Soon
+### - Website: (coming soon)
+### - Projects: [Projects](https://oneware.io/projects)
+### - Learning Log: Coming Soon  
 
-## Learning Tracker
+&nbsp;
+
+# Skills Tracker
 
 ## Courses
 
