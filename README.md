@@ -35,8 +35,6 @@
 | JavaScript      |    :fire:     |  :fire: |  :fire: |         |               |         |
 | JSON            |    :fire:     |  :fire: |  :fire: |  :fire: |     :fire:    |         |
 | React           |    :fire:     |  :fire: |         |         |               |         |
-| JSX             |    :fire:     |  :fire: |         |         |               |         |
-| Babel           |    :fire:     |         |         |         |               |         |
 | GopherJS        |    :fire:     |         |         |         |               |         |
 | Node.js         |    :fire:     |  :fire: |         |         |               |         |
 | Markdown        |    :fire:     |  :fire: |  :fire: |  :fire: |     :fire:    |         |
@@ -54,18 +52,18 @@
 
 | Tools                  | Introduction  |  Basics |   Good  |   Mid   |   Confident   |  Master |
 | ---------------------: | :-----------: |  :----: |  :----: |  :----: |  :---------:  |  :----: |
-| Command Line (Bash)    |    :fire:     |  :fire: |  :fire: |  :fire: |    :fire:     |         |
+| Command Line (Bash)    |    :fire:     |  :fire: |  :fire: |  :fire: |               |         |
 | VS Code                |    :fire:     |  :fire: |  :fire: |  :fire: |    :fire:     |         |
 | Docker                 |    :fire:     |  :fire: |         |         |               |         |
-| Git                    |    :fire:     |  :fire: |  :fire: |  :fire: |               |         |
-| Github                 |    :fire:     |  :fire: |  :fire: |  :fire: |               |         |
+| Git                    |    :fire:     |  :fire: |  :fire: |         |               |         |
+| Github                 |    :fire:     |  :fire: |  :fire: |         |               |         |
 | Gitlab                 |    :fire:     |  :fire: |  :fire: |         |               |         |
 | Google Cloud           |    :fire:     |  :fire: |  :fire: |         |               |         |
 | Digital Ocean          |    :fire:     |  :fire: |         |         |               |         |
 | Heroku                 |    :fire:     |  :fire: |         |         |               |         |
-| Chrome DevTools       |    :fire:     |  :fire: |  :fire: |  :fire: |               |         |
+| Chrome DevTools        |    :fire:     |  :fire: |  :fire: |  :fire: |               |         |
 | Trello                 |    :fire:     |  :fire: |  :fire: |  :fire: |               |         |
-| Monday                 |    :fire:     |  :fire: |  :fire: |  :fire: |               |         |
+| Monday                 |    :fire:     |  :fire: |  :fire: |  :fire: |    :fire:     |         |
 | BuildBox               |    :fire:     |  :fire: |  :fire: |  :fire: |    :fire:     |         |
 | Adobe XD               |    :fire:     |         |         |         |               |         |
 | Crello                 |    :fire:     |  :fire: |  :fire: |  :fire: |    :fire:     |         |
