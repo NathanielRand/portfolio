@@ -1,0 +1,51 @@
+{{define "material"}}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nathaniel Rand</title>
+        <head>
+            <!-- Compiled and minified CSS -->
+            <link type="text/css" rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
+            
+            <!-- Material Icons -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">    
+
+            <!-- Import Google Fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400&display=swap" rel="stylesheet">          
+
+            <!-- Import Animate.css -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">    
+
+            <!--Let browser know website is optimized for mobile-->            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" charset="utf-8"/>      
+
+            <!-- Custom Oneware CSS -->
+            <link rel="stylesheet" href="/assets/css/gohub.css">
+
+            <!-- General meta tags -->
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="description" content="Nathaniel Rand's Portfolio Website">
+            <meta name="keywords" content="oneware, io, software, hardware, development, application, design, web, go, material, docker, grpc, gcp, postgresql">
+            <meta name="author" content="Nathaniel Rand">
+            <meta charset="UTF-8">   
+        </head>
+
+    </head>
+
+    <body>
+        {{template "navbar"}}
+        {{template "yield" .}}
+        <br><br><br>
+        {{template "footer"}}
+        <!-- JAVSCRIPT at end of body for optimized loading -->
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <!-- Auto Initialize Materialize JS-->
+        <script>
+          M.AutoInit();
+        </script>
+    </body>
+</html>
+{{end}}
