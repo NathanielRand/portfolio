@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 )
 
-// Global constants to construct filepaths
-const (
-	LayoutDir string = "views/layouts/"
+// Global vars to construct filepaths
+var (
+	LayoutDir   string = "views/layouts/"
 	TemplateExt string = ".gohtml"
 )
 
@@ -30,7 +30,7 @@ func layoutFiles() []string {
 // NewView func to append files returned layoutFiles func and then
 // parse those files.
 func NewView(layout string, files ...string) *View {
-	files = append(files, layoutFiles()...)	
+	files = append(files, layoutFiles()...)
 	t, err := template.ParseFiles(files...)
 	if err != nil {
 		fmt.Printf("Error parsing template files: %v", err)

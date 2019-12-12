@@ -2,9 +2,14 @@ package main
 
 import (
 	"fmt"
+	"net/http"
+
+	"github.com/NathanielRand/portfolio/views"
+
+	"github.com/gorilla/mux"
 )
 
-const (
+var (
 	homeView *views.View
 	contactView *views.View
 	socialsView *views.View
@@ -16,11 +21,8 @@ const (
 )
 
 func home(w http.ResponseWriter, r *http.Request) {
-	// Set header type
 	w.Header().Set("Content-Type", "text/html")
-	// Execute template
 	err := homeView.Template.ExecuteTemplate(w, homeView.Layout, nil)
-	// Error check
 	if err != nil {
 		fmt.Printf("Error executing homeView template: %v\n", err)
 	}
@@ -109,7 +111,7 @@ func main() {
 	r.HandleFunc("/education", education)
 	r.HandleFunc("/resume", resume)
 	r.HandleFunc("/hobbies", hobbies)
-	r.HandleFunc("/travelss", travels)
+	r.HandleFunc("/travels", travels)
 
 	// Web Server
 	http.ListenAndServe(":8080", r)

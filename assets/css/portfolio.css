@@ -1,0 +1,21 @@
+body {
+  background: #b2dfdb;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, li {
+  font-family: 'Comfortaa', cursive;  
+  font-weight: normal;
+  color: #00695c;
+}
+
+.card {
+  border-radius: 11px 33px;
+}
+
+.btn {
+  border-radius: 5px 15px;
+}
+
+/* .card-action {
+  border-radius: 11px 33px;
+} */
