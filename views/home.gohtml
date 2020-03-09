@@ -1,85 +1,76 @@
 {{define "title"}}Welcome!{{end}}
-{{define "yield"}}
+{{define "yield"}}  
   <div class="row center">
-    <h1>Welcome</h1>
-    <h4 class="teal-text">My life in <custom class="teal-text text-lighten-2">pixels</custom></h4>
+    <br>
+    <h1 class="teal-text text-lighten-2">Welcome</h1>
+    <h4 class="teal-text">My life in <custom class="gradient-text">pixels</custom></h4>
   </div>
-  <div class="divider"></div><br>
-  <div class="row center">
-    <h5 class="teal-text">Check out my stuff below</h5>
-  </div>
+  <br><div class="divider"></div><br><br>
   <div class="row">
       <div class="col s12 m6 l4">
         <div class="card">
-          <div class="card-content teal-text center">
-            <img src="/assets/images/projects.png" alt="projects-logo">
-            <span class="card-title"><h3>Projects</h3></span>
-            <h6 class="teal-text text-lighten-1">I build things</h6>
+          <div class="card-content teal-text center">          
+            <img id="card-home" src="/assets/images/projects.png" alt="projects-logo">
+            <span class="card-title"><h3 class="gradient-text">Projects</h3></span>
+            <h6 class="teal-text text-lighten-1"><i>I built stuff</i></h6>
+            <br>
           </div>
           <div class="card-action center">
-            <a href="/projects" class="btn teal lighten-2">Explore</a>
+            <a href="/projects" id="card-home-button" class="btn btn-large gradient z-depth-2">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-content teal-text center">            
+            <img id="card-home" src="/assets/images/socials.png" alt="socials-logo">
+            <span class="card-title"><h3 class="gradient-text">Socials</h3></span>
+            <h6 class="teal-text text-lighten-1"><i>Connect we can</i></h6>
+            <br>
+          </div>
+          <div class="card-action center">
+            <a href="/socials" id="card-home-button" class="btn btn-large gradient z-depth-2">Connect</a>
+          </div>
+        </div>
+      </div>          
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-content teal-text center">
+            <img id="card-home" src="/assets/images/resume.png" alt="resume-logo">
+            <span class="card-title"><h3 class="gradient-text">Resume</h3></span>
+            <h6 class="teal-text text-lighten-1"><i>Things I've done</i></h6>
+            <br>
+          </div>
+          <div class="card-action center">
+            <a href="/resume" id="card-home-button" class="btn btn-large gradient z-depth-2">Discover</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4 offset-l2">
+        <div class="card">
+          <div class="card-content teal-text center">
+            <img id="card-home" src="/assets/images/education.png" alt="education-logo">
+            <span class="card-title"><h3 class="gradient-text">Education</h3></span>
+            <h6 class="teal-text text-lighten-1"><i>Just keep learning</i></h6>
+            <br>
+          </div>
+          <div class="card-action center">
+            <a href="/education" id="card-home-button" class="btn btn-large gradient z-depth-2">Learn</a>            
           </div>
         </div>
       </div>
       <div class="col s12 m6 l4">
         <div class="card">
           <div class="card-content teal-text center">
-            <img src="/assets/images/socials.png" alt="socials-logo">
-            <span class="card-title"><h3>Socials</h3></span>
-            <h6 class="teal-text text-lighten-1">Let's connect...or not</h6>
+            <img id="card-home" src="/assets/images/hobbies.png" alt="hobbies-logo">
+            <span class="card-title"><h3 class="gradient-text">Hobbies</h3></span>
+            <h6 class="teal-text text-lighten-1"><i>In my free-time</i></h6>
+            <br>
           </div>
           <div class="card-action center">
-            <a href="/socials" class="btn teal lighten-2">Connect</a>
+            <a href="/hobbies" id="card-home-button" class="btn btn-large gradient z-depth-2">Enjoy</a>
           </div>
         </div>
-      </div>
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-content teal-text center">
-            <img src="/assets/images/education.png" alt="education-logo">
-            <span class="card-title"><h3>Education</h3></span>
-            <h6 class="teal-text text-lighten-1">Just keep learining</h6>
-          </div>
-          <div class="card-action center">
-            <a href="/education" class="btn teal lighten-2">Judge</a>            
-          </div>
-        </div>
-      </div>    
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-content teal-text center">
-            <img src="/assets/images/resume.png" alt="resume-logo">
-            <span class="card-title"><h3>Resume</h3></span>
-            <h6 class="teal-text text-lighten-1">Where I have been</h6>
-          </div>
-          <div class="card-action center">
-            <a href="/resume" class="btn teal lighten-2">See it</a>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-content teal-text center">
-            <img src="/assets/images/hobbies.png" alt="hobbies-logo">
-            <span class="card-title"><h3>Hobbies</h3></span>
-            <h6 class="teal-text text-lighten-1">For funsies</h6>
-          </div>
-          <div class="card-action center">
-            <a href="/hobbies" class="btn teal lighten-2">Enjoy</a>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-content teal-text center">
-            <img src="/assets/images/travels.png" alt="hobbies-logo">
-            <span class="card-title"><h3>Travels</h3></span>
-            <h6 class="teal-text text-lighten-1">Around the world</h6>
-          </div>
-          <div class="card-action center">
-            <a href="/travels" class="btn teal lighten-2">Tag Along</a>
-          </div>
-        </div>
-      </div>
+      </div>      
     </div>
 {{end}}

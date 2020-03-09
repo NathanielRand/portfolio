@@ -2,8 +2,16 @@ body {
   background: #e0f2f1;
 }
 
-h1, h2, h3, h4, h5, h6, a, p, li {
-  font-family: 'Comfortaa', cursive;  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+li {
+  font-family: "Comfortaa", cursive;
   font-weight: normal;
   color: #00695c;
 }
@@ -20,7 +28,48 @@ h1, h2, h3, h4, h5, h6, a, p, li {
   border-radius: 11px 33px !important;
 }
 
+.gradient {
+  background: #4ac29a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #bdfff3,
+    #4ac29a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #bdfff3,
+    #4ac29a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradient-text {
+  background: #4ac29a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #bdfff3,
+    #4ac29a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #bdfff3,
+    #4ac29a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Custom IDs */
+
+#card-home {
+  width: 40%;
+  margin: 5%;
+}
+
+#card-home-button {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
 
 #card-shaped {
   border-radius: 45px 15px;
@@ -29,12 +78,42 @@ h1, h2, h3, h4, h5, h6, a, p, li {
 #project-card-image {
   /* margin: 2.5%;  */
   /* width: 95%; */
-  border-radius: 10px 30px;    
-  border-top: 2px solid #eceff1; 
+  border-radius: 10px 30px;
+  border-top: 2px solid #eceff1;
   width: 100%;
   /* height: auto; */
-  display: block; 
-  margin-left: auto; 
+  display: block;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
+}
+
+#project-link {
+  font-size: 1.6rem;
+}
+
+#navbar-links {
+  font-weight: 600;
+  font-size: large;
+}
+
+#sidebar-nav {
+  width: 70%;
+  margin-left: 15%;
+}
+
+#sidebar-text {
+  font-size: 1.8rem;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+#sidebar-image {
+  display: inline-block;
+  width: 150px;
+  height: 175px;
+  border-radius: 50%;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  border: 4px #e0f2f1 solid;
 }
