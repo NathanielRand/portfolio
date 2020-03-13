@@ -1,1 +1,7 @@
-UI Gradient: https://uigradients.com/#Cinnamint
+Resources:
+- UI Gradient: https://uigradients.com/#Cinnamint
+
+Deployment:
+- Deploy: gcloud app deploy
+- View App: gcloud app browse
+

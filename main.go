@@ -84,6 +84,10 @@ func travels(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func faviconHandler(w http.ResponseWriter, r *http.Request) {
+	http.ServeFile(w, r, "/favicon.ico")
+}
+
 func main() {
 	// Call NewView func from views package
 	homeView = views.NewView("materialize", "views/home.gohtml")
@@ -97,6 +101,9 @@ func main() {
 	
 	// Create router
 	r := mux.NewRouter()
+
+	// Favicon
+	r.HandleFunc("/favicon.ico", faviconHandler)
 
 	// Assest Routes
 	assetHandler := http.FileServer(http.Dir("./assets/"))
