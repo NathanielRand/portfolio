@@ -10,14 +10,14 @@ import (
 )
 
 var (
-	homeView *views.View
-	contactView *views.View
-	socialsView *views.View
+	homeView     *views.View
+	contactView  *views.View
+	socialsView  *views.View
 	projectsView *views.View
-	educationView *views.View
-	resumeView *views.View
-	hobbiesView *views.View
-	travelsView *views.View
+	skillsView   *views.View
+	resumeView   *views.View
+	hobbiesView  *views.View
+	travelsView  *views.View
 )
 
 func home(w http.ResponseWriter, r *http.Request) {
@@ -52,11 +52,11 @@ func projects(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func education(w http.ResponseWriter, r *http.Request) {
+func skills(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/html")
-	err := educationView.Template.ExecuteTemplate(w, educationView.Layout, nil)
+	err := skillsView.Template.ExecuteTemplate(w, skillsView.Layout, nil)
 	if err != nil {
-		fmt.Printf("Error executing educationView template: %v\n", err)
+		fmt.Printf("Error executing skillsView template: %v\n", err)
 	}
 }
 
@@ -94,11 +94,11 @@ func main() {
 	contactView = views.NewView("materialize", "views/contact.gohtml")
 	socialsView = views.NewView("materialize", "views/socials.gohtml")
 	projectsView = views.NewView("materialize", "views/projects.gohtml")
-	educationView = views.NewView("materialize", "views/education.gohtml")
+	skillsView = views.NewView("materialize", "views/skills.gohtml")
 	resumeView = views.NewView("materialize", "views/resume.gohtml")
 	hobbiesView = views.NewView("materialize", "views/hobbies.gohtml")
 	travelsView = views.NewView("materialize", "views/travels.gohtml")
-	
+
 	// Create router
 	r := mux.NewRouter()
 
@@ -115,7 +115,7 @@ func main() {
 	r.HandleFunc("/contact", contact)
 	r.HandleFunc("/socials", socials)
 	r.HandleFunc("/projects", projects)
-	r.HandleFunc("/education", education)
+	r.HandleFunc("/skills", skills)
 	r.HandleFunc("/resume", resume)
 	r.HandleFunc("/hobbies", hobbies)
 	r.HandleFunc("/travels", travels)
