@@ -1,5 +1,5 @@
 body {
-  background: #e0f2f1;
+  background: #455a64;
 }
 
 h1,
@@ -18,10 +18,21 @@ li {
 
 .card {
   border-radius: 11px 33px;
+  border: 3px solid #80cbc4;
 }
 
 .btn {
-  border-radius: 5px 15px;
+  border-radius: 5px 15px;  
+  
+}
+
+.btn-animation {
+  border: solid 2px #b2dfdb;
+  transition: border 0.6s linear;  
+}
+
+.btn-animation:hover { 
+  border-width: 3px;
 }
 
 .card-action {
@@ -31,28 +42,28 @@ li {
 .gradient {
   background: #4ac29a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #bdfff3,
+    to left,
+    #80cbc4,
     #4ac29a
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #bdfff3,
+    to left,
+    #80cbc4,
     #4ac29a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .gradient-text {
-  background: #4ac29a; /* fallback for old browsers */
+  background: #80cbc4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
     #bdfff3,
-    #4ac29a
+    #80cbc4
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to left,
     #bdfff3,
-    #4ac29a
+    #80cbc4
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   -webkit-background-clip: text;
