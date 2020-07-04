@@ -45,6 +45,13 @@ li {
   -webkit-box-shadow: inset 0 0 10px #000000
 }
 
+.footer-body {
+  border-top: 4px solid #546e7a;
+  box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+  -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+  -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+}
+
 .gradient {
   background: #4ac29a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -118,6 +125,14 @@ li {
 #navbar-links {
   font-weight: 600;
   font-size: large;
+}
+
+#resume-job-title {
+  margin-left: 2.5%;
+}
+
+#resume-job-content {
+  margin-left: 10%;
 }
 
 #sidebar-nav {
